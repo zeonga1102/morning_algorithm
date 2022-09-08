@@ -4,11 +4,10 @@ import sys
 
 t = int(sys.stdin.readline())
 
-
 for _ in range(t):
     zero = [1, 0]
     one = [0, 1]
-    
+
     n = int(sys.stdin.readline())
     if n <= 1:
         print(zero[n], one[n])
